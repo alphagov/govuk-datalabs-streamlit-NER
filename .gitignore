@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Ignore folders
+.Models/
+
+# ds store
+.DS_Store
