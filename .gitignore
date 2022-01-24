@@ -129,7 +129,10 @@ dmypy.json
 .pyre/
 
 # Ignore folders
+Models/
 .Models/
+.Models*
+./Models/*
 
 # ds store
 .DS_Store
