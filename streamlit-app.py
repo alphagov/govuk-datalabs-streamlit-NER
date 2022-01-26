@@ -35,7 +35,8 @@ st.write("https://web.stanford.edu/~jurafsky/slp3/14.pdf")
 # dependancy parsing visualisations
 spacy_model = "en_core_web_sm"
 nlp = spacy.load("en_core_web_sm")
-docy = nlp("You must be 18 or over. You must be a UK or EU national.")
+dep_text = st.text_input("Insert sentence for dependancy parsing", value='You must be 18 or over. You must be a UK or EU national.')
+docy = nlp(dep_text)
 visualizer.visualize_parser(
     docy,
     title=None,
