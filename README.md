@@ -2,7 +2,7 @@
 
 A repository to build a streamlit app that can visualise entities nicely extracted using a NER model.
 
-![alt text](./readme_images/readme_image.png)
+![alt text](./docs/readme_images/readme_image.png)
 
 ## How to use this app
 
