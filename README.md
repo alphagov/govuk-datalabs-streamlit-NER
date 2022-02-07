@@ -1,5 +1,8 @@
 # streamlit-entities
+
 A repository to build a streamlit app that can visualise entities nicely extracted using a NER model.
+
+![alt text](./docs/readme_images/readme_image.png)
 
 ## How to use this app
 
@@ -22,6 +25,7 @@ For example, if your NER model is pytorch/HuggingFace, copy the entire folder th
 In `config.py`, set your relative locations of both your model and your tokenizer 
 
 `MODEL_PATH= "./Models/{model_name/chekpoint(optional)}"`
+
 `TOKENIZER_PATH= "./Models/{model_name/chekpoint(optional)}"` 
 
 5. Run the web-app from the command line
