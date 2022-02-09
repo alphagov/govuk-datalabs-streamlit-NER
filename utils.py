@@ -11,7 +11,7 @@ from transformers import AutoTokenizer, AutoModelForTokenClassification, pipelin
 @st.cache(hash)
 def _load_model(MODEL_PATH, TOKENIZER_PATH):
     model = AutoModelForTokenClassification(MODEL_PATH)
-    tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
+    tokenizer = AutoTokenizer.from_pretrained(TOKENIZER_PATH)
     token_classifier = pipeline("ner", model=model, tokenizer=tokenizer, aggregation_strategy="simple")
     return token_classifier
 
