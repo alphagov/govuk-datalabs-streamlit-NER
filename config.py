@@ -18,5 +18,5 @@ colors = {"ORG": "#7c5cdd",
 
 entity_names = [k for (k,v) in colors.items()]
 
-MODEL_PATH= "./lfs_Models/checkpoint-591"
-TOKENIZER_PATH= "./lfs_Models/checkpoint-591"
+MODEL_PATH= "./Models/checkpoint-3500"
+TOKENIZER_PATH= "./Models/checkpoint-3500"
