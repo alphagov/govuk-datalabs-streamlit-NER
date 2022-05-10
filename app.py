@@ -2,11 +2,11 @@
 Example of using manual=True for visualize_ner.
 """
 from distutils.command import config
-from testy import visualizer
+from packages import visualizer
 import streamlit as st
 import spacy
 from config import entity_names, colors, MODEL_PATH, TOKENIZER_PATH
-from utils import _load_model, _url_to_exes
+from packages.utils import _load_model, _url_to_exes
 
 st.title("Named Entity Recognition Demo")
 st.write("### Demonstration of NER on GOV.UK page")
